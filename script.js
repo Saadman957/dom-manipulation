@@ -36,3 +36,11 @@ $('#addText4').click(function(event){
 	$('#task4a').append(paragraph);
 	
 });
+
+//Task 4b
+
+function changeBG(event){
+	var color = event.target.innerText.toLowerCase();
+	$('body').css('background-color', color);
+	
+}
